@@ -1,0 +1,21 @@
+npm install body-parser@1.19.0 dotenv@8.2.0 ejs@3.1.5 express@4.17.1
+
+    body-parser: dùng viết api, server lấy đc tham số clients gửi lên 
+    dotenv: js(process.env.<tên biến>) lấy đc tham số khai báo trong file môi trường
+    ejs: view engine (chayj màn hình trên server)
+    express: framework
+
+npm install --save-dev @babel/core@7.12.10 @babel/preset-env@7.12.10 @babel/node@7.12.10 nodemon@2.0.7
+
+    --save-dev: lưu package 
+    nodemon: tự chạy lại server khi có thay đổi
+
+npm install --save-dev sequelize-cli@6.2.0 
+
+    connect database
+
+chuẩn rest API
+    khi muốn lấy thông tin: chuẩn method là get
+    tạo thông tin(create) method là post
+    xóa thông tin: method delete
+    update thông tin: method push
